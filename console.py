@@ -31,6 +31,7 @@ def type_parser(arg):
         arg = float(arg)
     return arg
 
+
 class HBNBCommand(cmd.Cmd):
     """ Contains the functionality for the HBNB console"""
 
